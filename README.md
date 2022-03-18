@@ -1,8 +1,6 @@
-#ToDo Application 
+ToDo Application  - Selenium Test Automation Suite
 
-Selenium Test Automation Suite
-
-####Tech Stack Used
+Tech Stack Used
 ```
 selenium-java version 4.1.2
 testng version 6.10
@@ -12,7 +10,7 @@ java version 1.8.0_231
 chrome driver version 99.X
 ```
 
-####Details on project structure
+Details on project structure
 ```
 In this project selenium-java is used to test the ToDO application on chrome browser. Most of the code of this project is developed in such a way that it can be easily reused if more screens are present in application. 
 
@@ -43,7 +41,7 @@ to generate the Test Report.A extent property file is maintained to provide path
 A sample report can be found in reports folder of the project root.
 ```
 
-###How to run and package
+How to run and package
 ```
 prerequisite - java and maven should be installed locally.
 
@@ -52,8 +50,7 @@ run below command in command prompt from project root directory:
 mvn clean install
 ```
 
-##Test Scenarios Covered
-###Positive Test Cases
+Positive Test Cases
 ```
 Page title "todos" exist.
 Page footer "Double-click to edit a todo" exist.
@@ -70,7 +67,7 @@ Add multiple ToDos, delete them all and check if all ToDos are deleted.
 Add multiple ToDos, select one of them, delete it and check the remaining ToDos still exist.
 ```
 
-###Negative Test Cases
+Negative Test Cases
 ```
 "Number of item" text is not visible when there are no ToDos added.
 "Clear completed" option is not visible when there are no ToDos added.
