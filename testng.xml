@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite For ToDo Application">
+	<listeners>
+		<listener class-name="com.aventstack.extentreports.testng.listener.ExtentIReporterSuiteClassListenerAdapter"/>
+	</listeners>
+	<test name="Automation Report">
+		<parameter name="browserName" value="chrome">
+			<classes>
+				<class name="com.todo.ToDoTest"/>
+			</classes>
+		</parameter>
+	</test>
+</suite>

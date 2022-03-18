@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite For ToDo Application" duration-ms="247769" started-at="2022-03-18T00:01:14Z" finished-at="2022-03-18T00:05:21Z">
+    <groups>
+    </groups>
+    <test name="Automation Report" duration-ms="247769" started-at="2022-03-18T00:01:14Z" finished-at="2022-03-18T00:05:21Z">
+      <class name="com.todo.ToDoTest">
+        <test-method status="PASS" signature="beforeTestMethod()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="beforeTestMethod" is-config="true" duration-ms="15" started-at="2022-03-18T05:31:14Z" finished-at="2022-03-18T05:31:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="10055" started-at="2022-03-18T05:31:14Z" finished-at="2022-03-18T05:31:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testAddMultipleTodo()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="testAddMultipleTodo" duration-ms="875" started-at="2022-03-18T05:31:24Z" finished-at="2022-03-18T05:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleTodo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="afterMethod" is-config="true" duration-ms="789" started-at="2022-03-18T05:31:25Z" finished-at="2022-03-18T05:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="3805" started-at="2022-03-18T05:31:25Z" finished-at="2022-03-18T05:31:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testAddTodo()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="testAddTodo" duration-ms="644" started-at="2022-03-18T05:31:29Z" finished-at="2022-03-18T05:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTodo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="afterMethod" is-config="true" duration-ms="738" started-at="2022-03-18T05:31:30Z" finished-at="2022-03-18T05:31:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="4540" started-at="2022-03-18T05:31:31Z" finished-at="2022-03-18T05:31:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testClearAllToDos()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="testClearAllToDos" duration-ms="10956" started-at="2022-03-18T05:31:35Z" finished-at="2022-03-18T05:31:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearAllToDos -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="afterMethod" is-config="true" duration-ms="794" started-at="2022-03-18T05:31:46Z" finished-at="2022-03-18T05:31:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="6805" started-at="2022-03-18T05:31:47Z" finished-at="2022-03-18T05:31:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testClearCompletedNotVisibleIfNothingIsSelected()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="testClearCompletedNotVisibleIfNothingIsSelected" duration-ms="10610" started-at="2022-03-18T05:31:54Z" finished-at="2022-03-18T05:32:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearCompletedNotVisibleIfNothingIsSelected -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="afterMethod" is-config="true" duration-ms="767" started-at="2022-03-18T05:32:04Z" finished-at="2022-03-18T05:32:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="10173" started-at="2022-03-18T05:32:05Z" finished-at="2022-03-18T05:32:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testClearSingleToDo()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="testClearSingleToDo" duration-ms="20793" started-at="2022-03-18T05:32:15Z" finished-at="2022-03-18T05:32:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearSingleToDo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="afterMethod" is-config="true" duration-ms="846" started-at="2022-03-18T05:32:36Z" finished-at="2022-03-18T05:32:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="7764" started-at="2022-03-18T05:32:37Z" finished-at="2022-03-18T05:32:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDeleteActiveToDO()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="testDeleteActiveToDO" duration-ms="10931" started-at="2022-03-18T05:32:45Z" finished-at="2022-03-18T05:32:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteActiveToDO -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="afterMethod" is-config="true" duration-ms="858" started-at="2022-03-18T05:32:56Z" finished-at="2022-03-18T05:32:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="13460" started-at="2022-03-18T05:32:56Z" finished-at="2022-03-18T05:33:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDeleteAllToDos()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="testDeleteAllToDos" duration-ms="11725" started-at="2022-03-18T05:33:10Z" finished-at="2022-03-18T05:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteAllToDos -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="afterMethod" is-config="true" duration-ms="810" started-at="2022-03-18T05:33:22Z" finished-at="2022-03-18T05:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="11030" started-at="2022-03-18T05:33:22Z" finished-at="2022-03-18T05:33:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDeleteCompletedToDo()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="testDeleteCompletedToDo" duration-ms="11217" started-at="2022-03-18T05:33:34Z" finished-at="2022-03-18T05:33:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCompletedToDo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="afterMethod" is-config="true" duration-ms="795" started-at="2022-03-18T05:33:45Z" finished-at="2022-03-18T05:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="8390" started-at="2022-03-18T05:33:46Z" finished-at="2022-03-18T05:33:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDeleteCompletedToDos()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="testDeleteCompletedToDos" duration-ms="5791" started-at="2022-03-18T05:33:54Z" finished-at="2022-03-18T05:34:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCompletedToDos -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="afterMethod" is-config="true" duration-ms="2027" started-at="2022-03-18T05:34:00Z" finished-at="2022-03-18T05:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="7030" started-at="2022-03-18T05:34:02Z" finished-at="2022-03-18T05:34:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDeleteMultiplesToDos()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="testDeleteMultiplesToDos" duration-ms="3270" started-at="2022-03-18T05:34:09Z" finished-at="2022-03-18T05:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteMultiplesToDos -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="afterMethod" is-config="true" duration-ms="987" started-at="2022-03-18T05:34:12Z" finished-at="2022-03-18T05:34:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="5171" started-at="2022-03-18T05:34:13Z" finished-at="2022-03-18T05:34:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditTodo()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="testEditTodo" duration-ms="10277" started-at="2022-03-18T05:34:18Z" finished-at="2022-03-18T05:34:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditTodo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="afterMethod" is-config="true" duration-ms="1302" started-at="2022-03-18T05:34:28Z" finished-at="2022-03-18T05:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="6318" started-at="2022-03-18T05:34:30Z" finished-at="2022-03-18T05:34:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testItemAndClearCompletedNotVisible()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="testItemAndClearCompletedNotVisible" duration-ms="20156" started-at="2022-03-18T05:34:36Z" finished-at="2022-03-18T05:34:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testItemAndClearCompletedNotVisible -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="afterMethod" is-config="true" duration-ms="774" started-at="2022-03-18T05:34:56Z" finished-at="2022-03-18T05:34:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="9762" started-at="2022-03-18T05:34:57Z" finished-at="2022-03-18T05:35:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMarkMultipleToDosAsCompelted()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="testMarkMultipleToDosAsCompelted" duration-ms="1075" started-at="2022-03-18T05:35:07Z" finished-at="2022-03-18T05:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarkMultipleToDosAsCompelted -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="afterMethod" is-config="true" duration-ms="700" started-at="2022-03-18T05:35:08Z" finished-at="2022-03-18T05:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="5844" started-at="2022-03-18T05:35:09Z" finished-at="2022-03-18T05:35:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSelectTodo()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="testSelectTodo" duration-ms="567" started-at="2022-03-18T05:35:14Z" finished-at="2022-03-18T05:35:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectTodo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="afterMethod" is-config="true" duration-ms="736" started-at="2022-03-18T05:35:15Z" finished-at="2022-03-18T05:35:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="4673" started-at="2022-03-18T05:35:16Z" finished-at="2022-03-18T05:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testTitleAndFooterExist()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="testTitleAndFooterExist" duration-ms="314" started-at="2022-03-18T05:35:20Z" finished-at="2022-03-18T05:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitleAndFooterExist -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="afterMethod" is-config="true" duration-ms="749" started-at="2022-03-18T05:35:21Z" finished-at="2022-03-18T05:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTestMethod()[pri:0, instance:com.todo.ToDoTest@7085bdee]" name="afterTestMethod" is-config="true" duration-ms="0" started-at="2022-03-18T05:35:21Z" finished-at="2022-03-18T05:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- com.todo.ToDoTest -->
+    </test> <!-- Automation Report -->
+  </suite> <!-- Test Suite For ToDo Application -->
+</testng-results>

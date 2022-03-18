@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite For ToDo Application]">
+  <listeners>
+    <listener class-name="com.aventstack.extentreports.testng.listener.ExtentIReporterSuiteClassListenerAdapter"/>
+  </listeners>
+  <test name="Automation Report(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.todo.ToDoTest">
+        <methods>
+          <include name="beforeTestMethod"/>
+          <include name="afterMethod"/>
+          <include name="testEditTodo"/>
+          <include name="beforeMethod"/>
+          <include name="afterTestMethod"/>
+        </methods>
+      </class> <!-- com.todo.ToDoTest -->
+    </classes>
+  </test> <!-- Automation Report(failed) -->
+</suite> <!-- Failed suite [Test Suite For ToDo Application] -->
