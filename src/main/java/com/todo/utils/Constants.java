@@ -4,10 +4,10 @@ public interface Constants {
 	
 	String URL = "https://todomvc.com/examples/angular2/";
 	String TITLE_VALUE = "todos";
-	String TODO_TEXT1 = "to do text 1";
-	String TODO_TEXT2 = "to do text 2";
-	String TODO_TEXT3 = "to do text 3";
-	String EDIT_TODO= "edited to do";
+	String TODO_TEXT1 = "todotext1";
+	String TODO_TEXT2 = "todotext2";
+	String TODO_TEXT3 = "todotext3";
+	String EDIT_TODO= "editedtodo";
 	String FOOTER_TEXT = "Double-click to edit a todo";
 	
 	
