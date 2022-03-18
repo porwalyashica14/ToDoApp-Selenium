@@ -170,14 +170,14 @@ public class ToDoPageEvents {
 		BaseTest.actions.moveToElement(wb).doubleClick().build().perform();
 		WebElement editedClassWb = elementFetch.getWebElement("CLASSNAME", ToDoPageElements.EDITING_CLASS);
 		BaseTest.actions.moveToElement(editedClassWb).doubleClick().build().perform();
-		WebDriverWait wait = new WebDriverWait(BaseTest.driver, Duration.ofSeconds(30));
+		WebDriverWait wait = new WebDriverWait(BaseTest.driver, Duration.ofSeconds(20));
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(ToDoPageElements.EDIT_TODO_XPATH)));
 
 		WebElement editedXpathWb = elementFetch.getWebElement("XPATH", ToDoPageElements.EDIT_TODO_XPATH);
 		editedXpathWb.sendKeys(Constants.EDIT_TODO);
 		editedXpathWb.sendKeys(Keys.ENTER);
 		WebElement updatedToDO = elementFetch.getWebElement("XPATH", ToDoPageElements.TODO_TEXT1_XPATH);
-		assertTrue(updatedToDO.getText().equals(todoText));
+		assertTrue(updatedToDO.getText().equals(Constants.EDIT_TODO));
 	}
 
 	public void deleteMultipleToDO() {
